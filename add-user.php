@@ -30,7 +30,7 @@ if (isset($_POST['submit'])) {
             if($is_created) {
                 $success = 'SuccessFully Added!';
             } else {
-                $error = 'failed to add!';
+                $error = 'Roll.No already exists!';
             }
         } else {
             $error = 'Email already exists!';
