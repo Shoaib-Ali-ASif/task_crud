@@ -43,7 +43,7 @@ if (isset($_POST['submit'])) {
             if ($is_updated) {
                 $success = 'Updated!';
             } else {
-                $error = 'Failed To Updat';
+                $error = 'Failed To Update';
             }
         } else {
             $error = 'Email already exists!';
